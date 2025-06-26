@@ -20,7 +20,7 @@ A lightweight Streamlit web application that uses Google's **Gemini 2.0‑Flash*
 
 # Clone the repo
 ```bash
-https://github.com/Pavankumar599/AI-powered-candidate-screener.git
+git clone https://github.com/Pavankumar599/AI-powered-candidate-screener.git
 ```
 
 # Create a virtual environment (optional)
