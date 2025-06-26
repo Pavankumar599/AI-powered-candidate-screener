@@ -17,21 +17,27 @@ A lightweight Streamlit web application that uses Google's **Gemini 2.0‑Flash*
 
 ## Setup
 
-```bash
+
 # Clone or unzip the repo
+```bash
 cd quasivo_screening_app
 ```
 
 # Create a virtual environment (optional)
+```bash
 python -m venv .venv
+```
+```bash
 source .venv/bin/activate  # on Windows: .venv\Scripts\activate
+```
 
 # Install dependencies
+```bash
 pip install -r requirements.txt
-
-# Store your key (NEVER commit!) 
-echo "GEMINI_API_KEY=YOUR_KEY_HERE" > .env
 ```
+
+# Paste your GEMINI_API_KEY in .env file
+
 
 ## Run the App
 ```bash
@@ -54,7 +60,6 @@ quasivo_screening_app/
 Example Gemini prompts used inside `app.py` are in the `generate_interview_questions` and `score_answer` functions.
 
 ## Bonus Ideas Implemented
-* **PDF parsing** for résumé uploads via `PyPDF2`.
 * Easily extensible to add authentication or DB storage later.
 
 ## License
