@@ -20,6 +20,7 @@ A lightweight Streamlit web application that uses Google's **Gemini 2.0‑Flash*
 ```bash
 # Clone or unzip the repo
 cd quasivo_screening_app
+```
 
 # Create a virtual environment (optional)
 python -m venv .venv
