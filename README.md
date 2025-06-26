@@ -18,9 +18,9 @@ A lightweight Streamlit web application that uses Google's **Gemini 2.0‑Flash*
 ## Setup
 
 
-# Clone or unzip the repo
+# Clone the repo
 ```bash
-cd quasivo_screening_app
+https://github.com/Pavankumar599/AI-powered-candidate-screener.git
 ```
 
 # Create a virtual environment (optional)
